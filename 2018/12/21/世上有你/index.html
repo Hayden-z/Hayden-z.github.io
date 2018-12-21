@@ -359,6 +359,22 @@
   
 
   
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com/2018/12/21/世上有你/",
+  owner: 'Hayden-z',
+  repo: 'https://hayden-z.github.io',
+  oauth: {
+    client_id: 'c0abd3e629f3e47f6aff',
+    client_secret: 'a2f28eee5c0fa5a0af7697bb059261dd4e74878f',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
           </div>
